@@ -68,7 +68,7 @@ def newpage():
 """)
     
     
-    os.system(f"title gyazo Selfbot v1 ^| Usuario logueado: {bot.user.name}#{bot.user.discriminator} ^| Prefix: {prefix}")
+    os.system(f"title gyazo, zNetDev Selfbot v3 ^| Usuario logueado: {bot.user.name}#{bot.user.discriminator} ^| Prefix: {prefix}")
 
 def start():
     bot.run(token, bot=False, reconnect=True)
