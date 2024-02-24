@@ -320,3 +320,21 @@ async def help(ctx ,page=None):
                     {Fore.RED}|{Fore.WHITE}{prefix}chspam (amount)(name)    {Fore.LIGHTWHITE_EX}  {Fore.RED}| 
                     {Fore.RED}|{Fore.WHITE}{prefix}rename (name)            {Fore.LIGHTWHITE_EX}  {Fore.RED}|     
                     {Fore.RED}|{Fore.WHITE}{prefix}rolespam (amount)(name)  {Fore.LIGHTWHITE_EX}  {Fore.RED}|     
+                    {Fore.RED}|{Fore.WHITE}{prefix}streaming (name)         {Fore.LIGHTWHITE_EX}  {Fore.RED}|     
+                    {Fore.RED}|{Fore.WHITE}{prefix}delroles                 {Fore.LIGHTWHITE_EX}  {Fore.RED}|     
+                    {Fore.RED}|{Fore.WHITE}{prefix}webhookspam              {Fore.LIGHTWHITE_EX}  {Fore.RED}|     
+                    {Fore.RED}|{Fore.WHITE}{prefix}stopwebhook              {Fore.LIGHTWHITE_EX}  {Fore.RED}|     
+                    {Fore.RED}|{Fore.WHITE}{prefix}destroy (name)           {Fore.LIGHTWHITE_EX}  {Fore.RED}|     
+                    {Fore.RED}|{Fore.WHITE}{prefix}serverinfo               {Fore.LIGHTWHITE_EX}  {Fore.RED}|     
+                    {Fore.RED}|{Fore.WHITE}{prefix}delchannels              {Fore.LIGHTWHITE_EX}  {Fore.RED}| 
+                    {Fore.RED}|{Fore.WHITE}{prefix}purge (amount)           {Fore.LIGHTWHITE_EX}  {Fore.RED}|
+                    {Fore.RED}|{Fore.WHITE}{prefix}banall                   {Fore.LIGHTWHITE_EX}  {Fore.RED}|
+                    {Fore.RED}|____________________________| """                               
+    if page == None:
+        newpage()
+        print(help)
+    elif page == ("1"):
+        newpage()
+        print(help)
+
+start()
